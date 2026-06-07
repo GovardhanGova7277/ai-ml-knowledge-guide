@@ -1,13 +1,3 @@
-# AI-ML-GUIDE
-Here is the complete, properly formatted Markdown content inside a code block. You can copy everything inside the block and paste it directly into GitHub. 
-
-Below the code block, I have also included a quick guide on **how to upload it to GitHub**.
-
-***
-
-### Step 1: Copy the Markdown Content
-
-```markdown
 # AI/ML Engineer Interview Guide: Deep Dive
 
 > A comprehensive guide to mastering AI/ML system design interviews from a Head of AI/ML perspective. Covers Cost & Latency, System Design, Real-World Scenarios, LLM Fundamentals, Prompting, and Vector DBs.
@@ -45,7 +35,6 @@ Below the code block, I have also included a quick guide on **how to upload it t
 #### Deep Understanding
 Token usage directly impacts cost (input + output tokens billed) and latency (more tokens = longer generation time). The optimization happens at multiple levels:
 
-```
 ┌─────────────────────────────────────────────────────────────────┐
 │                    TOKEN OPTIMIZATION LAYERS                    │
 ├─────────────────────────────────────────────────────────────────┤
@@ -66,7 +55,7 @@ Token usage directly impacts cost (input + output tokens billed) and latency (mo
 │  ├── Early stopping / stop sequences                            │
 │  └── Output compression for downstream tasks                    │
 └─────────────────────────────────────────────────────────────────┘
-```
+
 
 #### Practical Example
 
