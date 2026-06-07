@@ -34,7 +34,7 @@
 
 #### Deep Understanding
 Token usage directly impacts cost (input + output tokens billed) and latency (more tokens = longer generation time). The optimization happens at multiple levels:
-
+```
 ┌─────────────────────────────────────────────────────────────────┐
 │                    TOKEN OPTIMIZATION LAYERS                    │
 ├─────────────────────────────────────────────────────────────────┤
@@ -56,7 +56,7 @@ Token usage directly impacts cost (input + output tokens billed) and latency (mo
 │  └── Output compression for downstream tasks                    │
 └─────────────────────────────────────────────────────────────────┘
 
-
+```
 #### Practical Example
 
 ```python
